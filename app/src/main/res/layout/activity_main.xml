@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F4511E"
+    android:background="@android:color/darker_gray"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -13,12 +13,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="511dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="69dp"
-        android:background="#F4511E"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="259dp"
         android:contentDescription="@string/todo"
         app:srcCompat="@drawable/coal" />
 
@@ -26,13 +24,20 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentLeft="false"
         android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="137dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="421dp"
+        android:duplicateParentState="false"
         android:fontFamily="casual"
         android:includeFontPadding="false"
         android:text="@string/i_am_poor"
         android:textColor="@android:color/black"
-        android:textSize="45sp" />
+        android:textSize="45sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
