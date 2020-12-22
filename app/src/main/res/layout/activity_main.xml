@@ -33,6 +33,7 @@
         android:includeFontPadding="false"
         android:text="@string/i_am_poor"
         android:textColor="@android:color/black"
-        android:textSize="45sp" />
+        android:textSize="45sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
